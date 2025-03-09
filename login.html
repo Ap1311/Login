@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+	<link rel="icon" href="other/lock.ico" type="image/x-icon">
+    <link rel="stylesheet" href="other/css.css">
+</head>
+<body>
+    <div class="login-container">
+        <form class="login-form" id="loginForm">
+            <h2>LOGIN</h2>
+			<p id="message"></p>
+            <div class="input-group">
+                <label for="username">
+                    <svg style="background-color: white; padding: 2px; border-radius: 50%;" xmlns="http://www.w3.org/2000/svg" height="25" viewBox="0 0 25 25" width="25">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M12 12c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm0 2c-3.31 0-10 1.67-10 5v3h20v-3c0-3.33-6.69-5-10-5z"/>
+                    </svg>
+                </label>&nbsp;&nbsp;
+                <input type="text" id="username" name="username" placeholder="Username" size="36" required>
+            </div>
+            <div class="input-group">
+                <label for="password">
+                    <svg style="background-color: white; padding: 2px; border-radius: 50%;" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 16 16">
+						<path d="M3.5 11.5a3.5 3.5 0 1 1 3.163-5H14L15.5 8 14 9.5l-1-1-1 1-1-1-1 1-1-1-1 1H6.663a3.5 3.5 0 0 1-3.163 2M2.5 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+					</svg>
+                </label>&nbsp;&nbsp;
+                <input type="password" id="password" name="password" placeholder="Password" size="36" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    <script src="other/js.js"></script>
+</body>
+</html>
