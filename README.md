@@ -70,7 +70,7 @@ Issue                     | Cause                       | Solution
 ⚠️ This login system is for educational purposes only. It does not include encryption or secure backend authentication. Use it responsibly and do not use for sensitive applications without further security enhancements.
 
 ## Here are some screenshots of Login-UI
-<img src="" alt="Screenshot 1"><br>
+<img src="https://github.com/Ap1311/Login/blob/972f060a8717f3ed682c51f01190f6f26989c6f4/other/img.png" alt="Screenshot 1"><br>
 
 ## 🌎 Find Me on
 
